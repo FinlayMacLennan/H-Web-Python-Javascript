@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Book</title>
-		<link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 
 	<body>
@@ -35,6 +35,13 @@
 
 				Email:*
 				<input type="text" name="email" maxlength="50" size="50" required><br><br>
+
+                <label for="t1">Select room(s):*<span aria-label="required"></span></label>
+                <input type="text" id="t1" name="T-shirt size" list="l1"/>
+                    <datalist id="l1">
+                        <option>Jungle</option>
+                        <option>Carnival</option>
+                    </datalist> <br><br>
 				
 				If required, please state any special requirements:<br>
 				<textarea name="requirements" rows="10" cols="75"></textarea><br><br>

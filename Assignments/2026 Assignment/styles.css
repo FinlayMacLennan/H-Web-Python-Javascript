@@ -1,3 +1,17 @@
+
+
+1 of 272
+(no subject)
+Inbox
+
+Finlay MacLennan <f.maclennan@albynschool.org>
+Attachments
+09:05 (43 minutes ago)
+to me
+
+
+ 3 attachment
+  •  Scanned by Gmail
 * {margin:0;padding:0}
 
 header{
@@ -76,9 +90,12 @@ footer{
 	height: 550px;
 }
 
-#challengeMain{
-	text-align: center;
-	float: left;
+#challengeMain {
+    text-align: center;
+    float: left;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 #bookMain{
@@ -108,7 +125,6 @@ footer{
 	display: inline-block;
 	width: 280px;
 	border: black;
-	margin-left: 15px;
 }
 
 .challengeLevelamature{
@@ -116,14 +132,26 @@ footer{
 	display: inline-block;
 	width: 280px;
 	border: black;
-	margin-left: 15px;
 }
 
 
 .challengeLevelexpert{
 	background-color: #d4b483;
 	display: inline-block;
-	width: 278px;
+	width: 280px;
 	border: black;
-	margin: 0px 15px 0px 15px;
+}
+
+#challengeMain {
+    text-align: center;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+#challengeMain h1 {
+    flex-basis: 100%;
+    text-align: center;
 }
